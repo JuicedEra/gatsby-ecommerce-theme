@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juiced Era</title>
+    <style>
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            background-color: #1e1e1e;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        .landing-page {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-image: url('your-background-image.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+        .landing-page h1 {
+            font-size: 4em;
+            text-shadow: 2px 2px #ff0000;
+        }
+        .enter-btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #ff0000;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1.5em;
+        }
+        .section {
+            padding: 50px 20px;
+        }
+        .music, .merch, .members {
+            background-color: #2e2e2e;
+            margin-bottom: 20px;
+        }
+        .section h2 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            text-shadow: 1px 1px #ff0000;
+        }
+        .section p {
+            font-size: 1.2em;
+            margin: 0 20px;
+        }
+        .merch img, .members img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+        }
+        .footer {
+            background-color: #111;
+            color: #777;
+            padding: 20px;
+            font-size: 0.8em;
+        }
+    </style>
+</head>
+<body>
+    <div class="landing-page">
+        <div>
+            <h1>Juiced Era</h1>
+            <a href="#music" class="enter-btn">Enter</a>
+        </div>
+    </div>
+    
+    <div id="music" class="section music">
+        <h2>Music</h2>
+        <p>Check out our latest tracks and albums. Stay tuned for more beats dropping soon!</p>
+        <!-- Add music player or links to music platforms -->
+    </div>
+    
+    <div id="merch" class="section merch">
+        <h2>Merch</h2>
+        <p>Get the latest Juiced Era gear. From t-shirts to hoodies, we've got you covered!</p>
+        <!-- Add images and links to merchandise store -->
+        <img src="your-merch-image1.jpg" alt="Merch 1">
+        <img src="your-merch-image2.jpg" alt="Merch 2">
+    </div>
+    
+    <div id="members" class="section members">
+        <h2>Members</h2>
+        <p>Meet the talent behind Juiced Era. Our crew is ready to bring the heat.</p>
+        <!-- Add member profiles and images -->
+        <img src="your-member-image1.jpg" alt="Member 1">
+        <img src="your-member-image2.jpg" alt="Member 2">
+    </div>
+    
+    <div class="footer">
+        <p>&copy; 2024 Juiced Era. All rights reserved.</p>
+    </div>
+</body>
+</html>
